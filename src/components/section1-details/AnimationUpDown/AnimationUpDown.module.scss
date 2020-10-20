@@ -1,0 +1,36 @@
+/* svg part1 div top effect */
+.cssUpDownAnimation {
+  -webkit-animation: animation-f4uuii 4s ease-in-out infinite alternate;
+  animation: animation-f4uuii 4s ease-in-out infinite alternate;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@-webkit-keyframes animation-f4uuii {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+}
+
+@keyframes animation-f4uuii {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+}

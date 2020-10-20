@@ -4,7 +4,7 @@ import TriangleElement1 from "../../figures/triangles/TriangleElement1/TriangleE
 import SquareElement1 from "../../figures/squares/SquareElement1/SquareElement1";
 import HexagonElement1 from "../../figures/hexagons/HexagonElement1/HexagonElement1"
 
-export default class AnimationComponentUpDown extends Component {
+export default class AnimationUpDown extends Component {
   render() {
     return (
         <div className={Style.cssUpDownAnimation}>

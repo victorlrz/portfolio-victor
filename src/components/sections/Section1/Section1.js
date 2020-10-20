@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Style from "./Section1.module.scss";
 import AnimationUpDown from "../../section1-details/AnimationUpDown/AnimationUpDown"
 import AnimationUpDownWide from "../../section1-details/AnimationUpDownWide/AnimationUpDownWide"
+import Highlights from "../../section1-details/Highlights/Highligths"
 import CircleElement3 from "../../figures/circles/CircleElement3/CircleElement3"
 import CircleElement4 from "../../figures/circles/CircleElement4/CircleElement4"
 import CircleElement5 from "../../figures/circles/CircleElement5/CircleElement5"
@@ -20,7 +21,7 @@ export default class Section1 extends Component {
     return (
         <div className={Style.ctnPart1}>
             <div>
-                <div className={Style.cssZbbnttDivider, Style.ctnPart1SVG}>
+                <div className={Style.cssZbbnttDivider + ' ' + Style.ctnPart1SVG}>
                     <AnimationUpDown/>
                     <AnimationUpDownWide />
                     <CircleElement3 />
@@ -35,6 +36,7 @@ export default class Section1 extends Component {
                     <SquareElement4 />
                     <HexagonElement2 />
                     <HexagonElement3 />
+                    <Highlights />
                 </div>
             </div>
         </div>

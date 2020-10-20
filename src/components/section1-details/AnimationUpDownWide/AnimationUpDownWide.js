@@ -8,7 +8,7 @@ import CrossElement1 from "../../figures/crosses/CrossElement1/CrossElement1";
 import CircleElement2 from "../../figures/circles/CircleElement2/CircleElement2";
 import CrossElement2 from "../../figures/crosses/CrossElement2/CrossElement2";
 
-export default class AnimationComponentUpDownWide extends Component {
+export default class AnimationUpDownWide extends Component {
   render() {
     return (
         <div className={Style.cssUpDownWideAnimation}>

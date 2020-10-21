@@ -1,0 +1,175 @@
+.cssContent {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.cssCtnContent {
+  position: absolute;
+  background-size: auto;
+  background-repeat: no-repeat;
+  will-change: transform;
+  width: 100%;
+  height: 1676px;
+  transform: translate3d(0px, 923.378px, 0px);
+}
+
+.cssw100 {
+  width: 100%;
+}
+
+.cssGridProjects {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
+  @media screen and (min-width: 900px) {
+    grid-gap: 4rem;
+  }
+  @media screen and (min-width: 600px) {
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (min-width: 400px) {
+    grid-gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+.cssSectionTitle {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.875rem;
+  margin-top: 0.5rem;
+  color: var(--theme-ui-colors-heading, #000);
+  @media screen and (min-width: 600px) {
+    font-size: 3rem;
+  }
+  @media screen and (min-width: 400px) {
+    font-size: 2.25rem;
+  }
+}
+
+.css1amuae2ProjectCard {
+  width: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--theme-ui-colors-white, #fff);
+  background: linear-gradient(to right, #d4145a 0%, #fbb03b 100%);
+  -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  @media screen and (min-width: 400px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.csscnityrProjectCard {
+  opacity: 0.85;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cssxr4zslProjectCard {
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  padding-top: 2rem;
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 1;
+  @media screen and (min-width: 400px) {
+    font-size: 2.25rem;
+  }
+}
+
+.css1uk8tleProjectCard {
+  width: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--theme-ui-colors-white, #fff);
+  background: linear-gradient(to right, #662d8c 0%, #ed1e79 100%);
+  -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  @media screen and (min-width: 400px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.cssu75v5ProjectCard {
+  width: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--theme-ui-colors-white, #fff);
+  background: linear-gradient(to right, #009245 0%, #fcee21 100%);
+  -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  @media screen and (min-width: 400px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.css143qgnProjectCard {
+  width: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: var(--theme-ui-colors-white, #fff);
+  background: linear-gradient(to right, #d585ff 0%, #00ffee 100%);
+  -webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  @media screen and (min-width: 400px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}

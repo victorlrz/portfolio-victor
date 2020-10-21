@@ -19,8 +19,8 @@ import HexagonElement3 from "../../figures/hexagons/HexagonElement3/HexagonEleme
 export default class Section1 extends Component {
   render() {
     return (
-        <div className={Style.ctnPart1}>
-            <div>
+        <div>
+            <div className={Style.ctnPart1}>
                 <div className={Style.cssZbbnttDivider + ' ' + Style.ctnPart1SVG}>
                     <AnimationUpDown/>
                     <AnimationUpDownWide />
@@ -36,8 +36,8 @@ export default class Section1 extends Component {
                     <SquareElement4 />
                     <HexagonElement2 />
                     <HexagonElement3 />
-                    <Highlights />
                 </div>
+                <Highlights />
             </div>
         </div>
     );

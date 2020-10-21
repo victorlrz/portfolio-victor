@@ -1,12 +1,3 @@
-.ctnPart1 {
-  position: absolute;
-  width: 100%;
-  transform: translate3d(0px, 0px, 0px);
-  overflow: hidden;
-  height: 4190px;
-  background-color: #141821;
-}
-
 .ctnPart1SVG {
   position: absolute;
   background-size: auto;
@@ -15,15 +6,4 @@
   width: 100%;
   height: 838px;
   transform: translate3d(0px, 0px, 0px);
-}
-
-/* CSS WEIRD CLASS */
-.cssZbbnttDivider {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.cssZbbnttDivider #contact-wave {
-  fill: currentColor;
 }

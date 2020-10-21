@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import Style from "../../section1-details/AnimationUpDown/AnimationUpDown.module.scss";
-import TriangleElement1 from "../../figures/triangles/TriangleElement1/TriangleElement1";
-import SquareElement1 from "../../figures/squares/SquareElement1/SquareElement1";
-import HexagonElement1 from "../../figures/hexagons/HexagonElement1/HexagonElement1"
+import SquareElement5 from "../../figures/squares/SquareElement5/SquareElement5"
+import CrossElement5 from "../../figures/crosses/CrossElement5/CrossElement5"
+import TriangleElement5 from "../../figures/triangles/TriangleElement5/TriangleElement5"
+import CircleElement7 from "../../figures/circles/CircleElement7/CircleElement7"
 
 export default class AnimationUpDown2 extends Component {
   render() {
     return (
         <div className={Style.cssUpDownAnimation}>
-            
+            <SquareElement5 />
+            <CrossElement5 />
+            <TriangleElement5 />
+            <CircleElement7 />
         </div>
     );
   }

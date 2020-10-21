@@ -7,4 +7,12 @@
   width: 1.5rem;
   left: 4%;
   top: 20%;
+
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
 }

@@ -20,26 +20,26 @@ export default class Section1 extends Component {
   render() {
     return (
         <div>
-            <div className={Style.ctnPart1}>
-                <div className={Style.cssZbbnttDivider + ' ' + Style.ctnPart1SVG}>
-                    <AnimationUpDown/>
-                    <AnimationUpDownWide />
-                    <CircleElement3 />
-                    <CircleElement4 />
-                    <CircleElement5 />
-                    <CrossElement3 />
-                    <CrossElement4 />
-                    <TriangleElement4 />
-                    <CircleElement6 />
-                    <SquareElement2 />
-                    <SquareElement3 />
-                    <SquareElement4 />
-                    <HexagonElement2 />
-                    <HexagonElement3 />
-                </div>
-                <Highlights />
-            </div>
+            <div className={ Style.ctnPart1SVG}>
+              <AnimationUpDown />
+              <AnimationUpDownWide />
+              <CircleElement3/>
+              <CircleElement4/>
+              <CircleElement5/>
+              <CrossElement3 />
+              <CrossElement4 />
+              <TriangleElement4 />
+              <CircleElement6 />
+              <SquareElement2 />
+              <SquareElement3 />
+              <SquareElement4 />
+              <HexagonElement2 />
+              <HexagonElement3 />
+              <Highlights />
+          </div>
         </div>
     );
   }
 }
+
+

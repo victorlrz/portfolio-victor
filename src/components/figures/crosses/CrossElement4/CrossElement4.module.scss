@@ -2,9 +2,15 @@
   position: absolute;
   stroke: none;
   fill: currentColor;
-  display: block;
+  display: none;
   color: var(--theme-ui-colors-icon_darker, #cbd5e0);
   width: 6rem;
   left: 40%;
-  top: 0%;
+  top: 80%;
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
 }

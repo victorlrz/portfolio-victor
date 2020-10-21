@@ -4,7 +4,7 @@ import Style from "./ProjectContent.module.scss";
 export default class ProjectContent extends Component {
   render() {
     return (
-        <div className={Style.cssContent + ' ' + cssCtnContent}>
+        <div className={Style.cssContent + ' ' + Style.cssCtnContent}>
             <div className={Style.cssw100}>
                 <div className={Style.cssGridProjects}>
                     <h2 className={Style.cssSectionTitle}>Projects</h2>

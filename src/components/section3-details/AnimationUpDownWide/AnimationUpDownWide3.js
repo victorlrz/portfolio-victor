@@ -4,7 +4,7 @@ import DoubleTriangleElement3 from "../../figures/doubletriangles/DoubleTriangle
 import TriangleElement9 from "../../figures/triangles/TriangleElement9/TriangleElement9";
 import CircleElement12 from "../../figures/circles/CircleElement12/CircleElement12";
 
-export default class AnimationUpDownWide2 extends Component {
+export default class AnimationUpDownWide3 extends Component {
   render() {
     return (
         <div className={Style.cssUpDownWideAnimation}>

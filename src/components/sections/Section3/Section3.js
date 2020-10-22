@@ -22,8 +22,8 @@ export default class Section3 extends Component {
                 <SquareElement9 />
                 <SquareElement10 />
                 <HexagonElement6 />
-                <AboutContent />
             </div>
+            <AboutContent />
         </div>
     );
   }

@@ -1,11 +1,28 @@
+// .cssTriangle1SVG {
+//   position: absolute;
+//   stroke: currentColor;
+//   fill: none;
+//   display: none;
+//   color: var(--theme-ui-colors-icon_orange, #ed8936);
+//   width: 12rem;
+//   left: 10%;
+//   top: 20%;
+//   @media screen and (min-width: 400px) {
+//     display: none;
+//   }
+//   @media screen and (min-width: 600px) {
+//     display: block;
+//   }
+// }
+
 .cssTriangle1SVG {
   position: absolute;
   stroke: currentColor;
   fill: none;
   display: none;
-  color: var(--theme-ui-colors-icon_orange, #ed8936);
-  width: 12rem;
-  left: 10%;
+  color: var(--theme-ui-colors-icon_orange, #121426);
+  width: 4.5rem;
+  left: 15%;
   top: 20%;
   @media screen and (min-width: 400px) {
     display: none;

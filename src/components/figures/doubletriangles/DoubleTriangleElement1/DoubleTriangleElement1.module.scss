@@ -1,9 +1,26 @@
+// .cssDoubleTriangle1SVG {
+//   position: absolute;
+//   stroke: none;
+//   fill: currentColor;
+//   display: none;
+//   color: var(--theme-ui-colors-icon_blue, #3182ce);
+//   width: 4rem;
+//   left: 80%;
+//   top: 10%;
+//   @media screen and (min-width: 400px) {
+//     display: none;
+//   }
+//   @media screen and (min-width: 600px) {
+//     display: block;
+//   }
+// }
+
 .cssDoubleTriangle1SVG {
   position: absolute;
   stroke: none;
   fill: currentColor;
   display: none;
-  color: var(--theme-ui-colors-icon_blue, #3182ce);
+  color: var(--theme-ui-colors-icon_blue, #121426);
   width: 4rem;
   left: 80%;
   top: 10%;

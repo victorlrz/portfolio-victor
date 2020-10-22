@@ -11,6 +11,9 @@
 .ctnTitle {
   width: 100%;
   text-align: center; //Tochange
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @media screen and (min-width: 400px) {
     width: 100%;
   }
@@ -92,4 +95,21 @@
   @media screen and (min-width: 900px) {
     padding: 4rem;
   }
+}
+
+.imgCtn {
+  padding: 0.5rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 1052px) {
+    display: none;
+  }
+}
+
+.profileStyle {
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
 }

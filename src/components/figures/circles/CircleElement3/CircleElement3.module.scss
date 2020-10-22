@@ -1,3 +1,20 @@
+// .cssCircleElement3SVG {
+//   position: absolute;
+//   stroke: none;
+//   fill: currentColor;
+//   display: none;
+//   color: var(--theme-ui-colors-icon_darker, #cbd5e0);
+//   width: 6rem;
+//   left: 5%;
+//   top: 70%;
+//   @media screen and (min-width: 400px) {
+//     display: none;
+//   }
+//   @media screen and (min-width: 600px) {
+//     display: block;
+//   }
+// }
+
 .cssCircleElement3SVG {
   position: absolute;
   stroke: none;
@@ -5,7 +22,7 @@
   display: none;
   color: var(--theme-ui-colors-icon_darker, #cbd5e0);
   width: 6rem;
-  left: 5%;
+  left: 8%;
   top: 70%;
   @media screen and (min-width: 400px) {
     display: none;

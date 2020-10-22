@@ -6,10 +6,17 @@ export default class Highlights extends Component {
     return (
         <div className={Style.ctnHighlights + ' ' + Style.pdWindow}>
            <div className={Style.ctnTitle}>
-               <h1 className={Style.myTitle}>@Victor Larrezet</h1>
-               <p className={Style.myDescription}>Découvrez mon portefeuille de projets webs ! </p>
+              <div className={Style.imgCtn}>
+                <img className={Style.profileStyle} src="/img/profile.png" alt="profile"></img>
+              </div>
+              <div>
+                <h1 className={Style.myTitle}>Victor Larrezet</h1>
+                <p className={Style.myDescription}>Découvrez mon portefeuille de projets web ! </p>
+              </div>
             </div>
         </div>
     );
   }
 }
+
+

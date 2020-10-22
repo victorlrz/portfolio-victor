@@ -1,12 +1,29 @@
+// .cssSquareElement2SVG {
+//   position: absolute;
+//   stroke: none;
+//   fill: currentColor;
+//   display: none;
+//   color: var(--theme-ui-colors-icon_purple, #805ad5);
+//   width: 16rem;
+//   left: 5%;
+//   top: 90%;
+//   @media screen and (min-width: 400px) {
+//     display: none;
+//   }
+//   @media screen and (min-width: 600px) {
+//     display: block;
+//   }
+// }
+
 .cssSquareElement2SVG {
   position: absolute;
   stroke: none;
   fill: currentColor;
   display: none;
-  color: var(--theme-ui-colors-icon_purple, #805ad5);
-  width: 16rem;
-  left: 5%;
-  top: 90%;
+  color: var(--theme-ui-colors-icon_purple, #121426);
+  width: 6rem;
+  left: 15%;
+  top: 95%;
   @media screen and (min-width: 400px) {
     display: none;
   }

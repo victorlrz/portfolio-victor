@@ -20,7 +20,7 @@ export default class Section1 extends Component {
   render() {
     return (
         <div>
-            <div className={ Style.ctnPart1SVG}>
+            <div className={Style.ctnPart1SVG}>
               <AnimationUpDown />
               <AnimationUpDownWide />
               <CircleElement3/>

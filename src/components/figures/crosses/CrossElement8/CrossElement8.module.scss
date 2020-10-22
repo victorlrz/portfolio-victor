@@ -1,0 +1,16 @@
+.cssCrossElement8SVG {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  display: none;
+  color: var(--theme-ui-colors-icon_orange, #ed8936);
+  width: 6rem;
+  left: 80%;
+  top: 80%;
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
+}

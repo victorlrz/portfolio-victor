@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Section1, Section2} from "./components"
+import {Section1, Section2, Section3} from "./components"
 import "./App.css";
 
 class App extends Component {
@@ -12,6 +12,7 @@ class App extends Component {
                         <div className="ctn-m">
                             <Section1 />
                             <Section2 />
+                            <Section3 />
                         </div>
                     </div>
                 </main>

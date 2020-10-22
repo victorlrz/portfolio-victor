@@ -1,0 +1,16 @@
+.cssCircleElement12SVG {
+  position: absolute;
+  stroke: none;
+  fill: currentColor;
+  display: none;
+  color: var(--theme-ui-colors-icon_brightest, #edf2f7);
+  width: 5rem;
+  left: 85%;
+  top: 15%;
+  @media screen and (min-width: 400px) {
+    display: none;
+  }
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
+}

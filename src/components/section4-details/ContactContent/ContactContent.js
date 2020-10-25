@@ -6,8 +6,12 @@ export default class ContactContent extends Component {
     return (
         <div className={Style.cssContactContent}>
             <div className={Style.cssContentCtn}>
-                <h2 className={Style.cssContentTitle}>Get in touch</h2>
-                <p className={Style.cssP}>Say <a href="plizNoSp4m@domain.tld" className={Style.linkContact}>Hi</a> or find me on other platforms: <a href="https://dribbble.com/LekoArts" className={Style.linkContact}>Dribbble</a> &amp; <a href="https://www.instagram.com/lekoarts.de/" className={Style.linkContact}>Instagram</a></p>
+                <h2 className={Style.cssContentTitle}>Contacts</h2>
+                <p className={Style.cssP}>Vous pouvez me contacter sur la plateforme <a href="https://www.linkedin.com/in/victor-larrezet/" target="_blank" rel="noreferrer noopener" className={Style.linkContact}>LinkedIn</a> ou par les moyens suivants : </p>
+                <p className={Style.cssP}><i className="fas fa-phone-alt"></i>+33.6.06.92.15.22</p>
+                <p className={Style.cssP}><i class="fas fa-envelope"></i>larrezetvictor@gmail.com</p>
+                <p className={Style.cssP}><i class="fab fa-github"></i><a href="https://github.com/vlarreze" target="_blank" rel="noreferrer noopener" className={Style.linkContact}>Github</a></p>
+
             </div>
         </div>
     );

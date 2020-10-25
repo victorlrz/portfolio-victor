@@ -7,7 +7,7 @@ export default class ProjectContent extends Component {
         <div className={Style.cssContent + ' ' + Style.cssCtnContent}>
             <div className={Style.cssw100}>
                 <div className={Style.cssGridProjects}>
-                    <h2 className={Style.cssSectionTitle}>Projects</h2>
+                    <h2 className={Style.cssSectionTitle}>Projets</h2>
                     
                     <a href="https://agence-ledor-victor.netlify.app/" target="_blank" rel="noreferrer noopener" className={Style.css1amuae2ProjectCard}>
                     <div className={Style.csscnityrProjectCard}>This project is my entry to Adobe's #ChallengeYourPerspective contest.</div>
@@ -24,6 +24,14 @@ export default class ProjectContent extends Component {
                     <a href="https://cv-example-victor.netlify.app/" target="_blank" rel="noreferrer noopener" className={Style.css143qgnProjectCard}>
                     <div className={Style.csscnityrProjectCard}>A fantasy image manipulation relocating the habitat of wild animals.</div>  
                     <div className={Style.cssxr4zslProjectCard}>Exemple de CV</div></a>
+
+                    <a href="https://medium-victor.netlify.app/" target="_blank" rel="noreferrer noopener" className={Style.cssu76v5ProjectCard}>
+                    <div className={Style.csscnityrProjectCard}>Recreation of a Tomb Raider Wallpaper (Fan Art)</div>
+                    <div className={Style.cssxr4zslProjectCard}>Blog</div></a>
+                    
+                    <a href="https://cv-example-victor.netlify.app/" target="_blank" rel="noreferrer noopener" className={Style.css77qgnProjectCard}>
+                    <div className={Style.csscnityrProjectCard}>A fantasy image manipulation relocating the habitat of wild animals.</div>  
+                    <div className={Style.cssxr4zslProjectCard}>Films</div></a>
                 </div>
             </div>    
         </div>
